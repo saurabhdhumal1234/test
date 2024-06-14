@@ -1,4 +1,4 @@
-module "ec2_instance" {
+module "ec2-instance" {
   source = "./modules/ec2-instance"
   ami_value = "ami-0eaf7c3456e7b5b68" 
   instance_type_value = "t2.micro"
