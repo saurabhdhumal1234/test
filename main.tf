@@ -1,3 +1,7 @@
+provider "aws" {
+  region = "us-east-1"
+}
+
 module "ec2-instance" {
   source = "./modules/ec2-instance"
   ami_value = "ami-0eaf7c3456e7b5b68" 
